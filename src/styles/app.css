@@ -1,0 +1,118 @@
+/* src/styles/app.css */
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #1a1a2e;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #e94560;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #ff7675;
+}
+
+/* Home Page */
+.home-page {
+  text-align: center;
+  padding: 50px;
+}
+
+/* Playlist */
+.playlist {
+  padding: 20px;
+}
+
+.playlist ul {
+  list-style: none;
+  padding: 0;
+}
+
+.play-btn {
+  margin: 5px 0;
+  padding: 10px;
+  border: none;
+  background: #4a90e2;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.play-btn:hover {
+  background: #3578a6;
+}
+
+/* Profile */
+.profile {
+  padding: 20px;
+}
+
+/* Auth (Login) */
+.auth {
+  text-align: center;
+  padding: 40px;
+}
+
+.auth input {
+  margin: 10px;
+  padding: 10px;
+  width: 80%;
+}
+
+.login-btn {
+  padding: 10px 20px;
+  background: #e94560;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background: #ff7675;
+}
+
+/* Music Player */
+.music-player {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #1a1a2e;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.music-player button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Song Grid */
+.song-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.song-card {
+  padding: 15px;
+  background: #1a1a2e;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.song-image {
+  width: 100%;
+  border-radius: 8px;
+}
